@@ -36,9 +36,10 @@ public class Ship{
     }
     
     /*****************************************
-    * Description: overrides toString() gets the persons name and birthyear
+    * Description: overrides toString() gets the ship's name and
+    *               year of registration
     * 
-    * @return      String: person info
+    * @return      String: ship info
     * ****************************************/ 
     @Override
     public String toString(){
