@@ -13,7 +13,7 @@ public class CruiseShip extends Ship{
         passengers = 0;
     }
     
-    //String fn, String ln, int by
+    //String name, String flag, int year
     public CruiseShip(String n, String f, int y,  String cl, int p){
         super(n, f, y);
         cruiseLine = cl;
@@ -26,10 +26,11 @@ public class CruiseShip extends Ship{
     
     // other
     /*****************************************
-    * Description: gets the instructor's name and degree
+    * Description: gets info about the cruise shi[
     * 
-    * @return       String: initial name and degree
+    * @return       String: ship info
     * ****************************************/  
+    @Override
     public String getName(){
         return cruiseLine + ", " + name + ", " + passengers;
     }

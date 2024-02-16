@@ -9,6 +9,7 @@ public class Pro extends Athlete{
 
     //constructor
     public Pro(){
+        // implicit call to the no-arg constructor in Athlete
         salary = 0.0;
     }// end no-arg
 

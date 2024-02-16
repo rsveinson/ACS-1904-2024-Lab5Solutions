@@ -27,9 +27,9 @@ public class Ship{
     
     // other
     /*****************************************
-    * Description: gets ther person's name (first name last name)
+    * Description: get the ship's name and flag
     * 
-    * @return       String: full name
+    * @return       String: ship info
     * ****************************************/  
     public String getName(){
         return name + ", " + flag;

@@ -13,7 +13,7 @@ public class Tanker extends Ship{
         length = 0;
     }
     
-    //String n, String f, int y
+    //String name, String flag, int year
     public Tanker(String n, String f, int y,  int c, int l){
         super(n, f, y);
         capacity = c;
@@ -25,9 +25,9 @@ public class Tanker extends Ship{
     
     // other
     /*****************************************
-    * Description: gets the instructor's name and degree
+    * Description: gets info about the cruise shi[
     * 
-    * @return       String: initial name and degree
+    * @return       String: ship info
     * ****************************************/  
     public String getName(){
         return name + ", " + capacity + "L, " + length + "m";

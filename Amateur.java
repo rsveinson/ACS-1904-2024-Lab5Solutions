@@ -26,7 +26,6 @@ public class Amateur extends Athlete{
     @Override
     public String toString(){
         StringBuilder st = new StringBuilder();
-        
         st.append("Amateur: " + name + "\n");
         st.append("Sport: " + sport + "\n");
         st.append("Eligible: " + (eligible ? "Eligible" : "Not Eligible"));
